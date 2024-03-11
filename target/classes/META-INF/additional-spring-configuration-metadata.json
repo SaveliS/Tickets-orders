@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "absolute.path.logger",
+  "type": "java.lang.String",
+  "description": "Absolute path for logger."
+}]}

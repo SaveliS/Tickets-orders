@@ -1,2 +1,3 @@
 src/main/resources/application.properties
 src/main/java/com/saveli/repository/createDBTickets.sql
+src/main/resources/logs/

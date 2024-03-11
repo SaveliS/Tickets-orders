@@ -2,6 +2,7 @@ package com.saveli.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.saveli.model.Event;
@@ -14,19 +15,12 @@ public class TicketService {
     
     private final TicketRepository ticketRepository;
 
+    @Autowired
     public TicketService(TicketRepository ticketRepository){
         this.ticketRepository = ticketRepository;
     }
 
     public Iterable<Ticket> getAllTicket(){
         return ticketRepository.findAll();
-    }
-
-    public List<Ticket> getByEvent(Event event){
-        return ticketRepository.findByEvent(event);
-    }
-
-    public List<Ticket> getByTicketStatus(TicketStatus ticketStatus){
-        return ticketRepository.findByTicketStatus(ticketStatus);
     }
 }
