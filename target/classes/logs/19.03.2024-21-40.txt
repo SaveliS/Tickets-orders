@@ -1,0 +1,7 @@
+21:38:08.548591800:Метод закончен
+21:39:19.502165600:Метод запущен
+21:39:19.505372900:Имя метода:org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint
+21:39:19.506338:Метод закончен
+21:39:19.599888700:Метод запущен
+21:39:19.600897300:Имя метода:org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint
+21:39:19.600897300:Метод закончен
